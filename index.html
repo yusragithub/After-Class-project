@@ -1,115 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>After Class Project</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+    </script>
     <style>
         * {
             background-color: lightpink;
             color: darkorchid;
+            margin: 10px;
         }
-        div {
-            display: grid;
-  grid-template-rows: 80px 90px 30px 40px; 
-  grid-template-columns: 2fr 1fr;
-        }
+
         mark {
             background-color: lightcoral;
         }
+
         .col-lg-4 {
             background-color: red;
             border: 1px solid black;
             grid-template-rows: 100px;
         }
+
         .col-xl-6 {
             background-color: rosybrown;
             border: 1px solid black;
         }
+
         .col-sm-7 {
             background-color: rgb(255, 0, 251);
             border: 1px solid black;
         }
+
         .col-lg-3 {
             background-color: rgb(242, 255, 0);
             border: 1px solid black;
         }
+
         .col-xl-9 {
             background-color: rgb(162, 255, 0);
             border: 1px solid black;
         }
+
         .col-sm-11 {
             background-color: rgb(143, 188, 176);
             border: 1px solid black;
         }
+
         .col-lg-6 {
             background-color: rgb(0, 255, 140);
             border: 1px solid black;
         }
+
         .col-sm-10 {
             background-color: rgb(242, 255, 0);
             border: 1px solid black;
         }
+        .col-xl-7 {
+            background-color: rgb(45, 156, 7);
+            border: 1px solid black;
+        }
+        .col-lg-12 {
+            background-color: rgba(194, 97, 175, 0.699);
+            border: 1px solid black;
+        }
+        .col-lg-15 {
+            background-color: rgb(148, 27, 118);
+            border: 1px solid black;
+        }
+        .col-sm-18 {
+            background-color: rgb(218, 99, 125);
+            border: 1px solid black;
+        }
     </style>
 </head>
+
 <body>
-    <div class="Container">
-        <h1>Nutritions</h1>
-        <p>A <b>well-balanced diet provides essential nutrients that fuel our bodies and support overall health.</b> Nutrients
-            such as
-            <u>carbohydrates, proteins, fats, vitamins, and minerals can be obtained from various sources including whole foods
-                like
-                fruits, vegetables, whole grains, lean meats, and healthy fats</u>. Additionally, fortified foods and
-            supplements can also
-            provide necessary nutrients. Taking adequate nutrition has <mark>numerous benefits, including maintaining healthy
-                weight,
-                supporting growth and development, boosting energy levels, enhancing mental clarity and focus, and reducing the
-                risk of
-                chronic diseases like heart disease, diabetes, and certain cancers.</mark> By prioritizing nutrition,
-            individuals can optimize
-            their overall well-being and quality of life. Here are some foods and their nutritions:-
-        </p>
+    <div class="container-fluid">
         <div class="row">
-            <h3>Fruits</h3>
-            <div class="col-lg-4">
+            <h1>Nutritions</h1>
+            <p>A <b>well-balanced diet provides essential nutrients that fuel our bodies and support overall health.</b>
+                Nutrients
+                such as
+                <u>carbohydrates, proteins, fats, vitamins, and minerals can be obtained from various sources including
+                    whole foods
+                    like
+                    fruits, vegetables, whole grains, lean meats, and healthy fats</u>. Additionally, fortified foods
+                and
+                supplements can also
+                provide necessary nutrients. Taking adequate nutrition has <mark>numerous benefits, including
+                    maintaining healthy
+                    weight,
+                    supporting growth and development, boosting energy levels, enhancing mental clarity and focus, and
+                    reducing the
+                    risk of
+                    chronic diseases like heart disease, diabetes, and certain cancers.</mark> By prioritizing
+                nutrition,
+                individuals can optimize
+                their overall well-being and quality of life. Here are some foods and their nutritions:-
+            </p>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <h3>Fruits</h3>
+        <div class="row">
+            <div class="col-lg-6 col-lg-6">
                 Apples: Fiber, Vitamin C, Antioxidants<br>
-                </div>
-                <div class="col-xl-6">
+            </div>
+            <div class="col-xl-6">
                 Bananas: Potassium, Vitamin C, Vitamin B6<br>
-                </div>
-                <div class="col-sm-7">
+            </div>
+            <div class="col-sm-7">
                 Oranges: Vitamin C, Vitamin A, Folate<br>
-                </div>
-                <div class="col-lg-3">
+            </div>
+            <div class="col-lg-3">
                 Mangoes: Vitamin A, Vitamin C, Fiber
-                </div>
-                <h3>Vegetables</h3>
-                <div class="col-xl-9">
+            </div>
+            <h3>Vegetables</h3>
+            <div class="col-xl-9">
                 Broccoli: Vitamin C, Vitamin K, Fiber, Cancer-fighting compounds<br>
-                </div>
-                <div class="col-sm-11">
+            </div>
+            <div class="col-sm-11">
                 Spinach: Iron, Vitamin A, Vitamin K, Folate<br>
-                </div>
-                <div class="col-lg-6">
+            </div>
+            <div class="col-lg-6">
                 Carrots: Vitamin A, Fiber, Antioxidants<br>
-                </div>
-                <div class="col-sm-10">
+            </div>
+            <div class="col-sm-10">
                 Tomatoes: Vitamin C, Lycopene (antioxidant)
-                </div>
-                <h3>Protein Sources</h3>
-                <div class="col-xl-7">
+            </div>
+            <h3>Protein Sources</h3>
+            <div class="col-xl-7">
                 Chicken: Protein, Vitamin B6, Niacin<br>
-                </div>
-                <div class="col-lg-12">
+            </div>
+            <div class="col-lg-12">
                 Salmon: Protein, Omega-3 fatty acids, Vitamin D<br>
-                </div>
-                <div class="col-lg-15">
+            </div>
+            <div class="col-lg-15">
                 Eggs: Protein, Vitamin D, Choline<br>
-                </div>
-                <div class="col-sm-18">
+            </div>
+            <div class="col-sm-18">
                 Lentils: Protein, Fiber, Iron, Zinc
-                </div>
-            
+            </div>
+
         </div>
     </div>
 </body>
